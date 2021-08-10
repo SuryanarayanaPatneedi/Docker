@@ -1,4 +1,4 @@
 FROM  centos:7
-RUN yumm install httpd -y
+RUN yum install httpd -y
 CMD  [“/usr/sbin/httpd”,” -D”,” FOREGROUND”]
 EXPOSE 80
